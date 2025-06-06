@@ -115,3 +115,83 @@
 //    changeColor = Math.floor(changeColor);
 //    console.log(changeColor);
 //    document.body.style.backgroundColor = colors[changeColor];
+// ________________________________________________________________________________________
+// ques no 11
+// Find Max and Min in a Random Array
+// Task:
+// Generate an array of 10 random numbers between 1 and 100. Use Math.random() and Math.floor() to generate the numbers. Then, use Math.max() and Math.min() to find the maximum and minimum values.
+
+// Expected Output:
+// A list of the 10 numbers, followed by:
+// Max number is: XX  
+// Min number is: XX
+// let randomNumber1 = Math.floor(Math.random()*100)+1;
+
+// let randomNumber2 = Math.floor(Math.random()*100)+1;
+
+// let randomNumber3 = Math.floor(Math.random()*100)+1;
+
+// let randomNumber4 = Math.floor(Math.random()*100)+1;
+
+// let randomNumber5 = Math.floor(Math.random()*100)+1;
+
+// let randomNumber6 = Math.floor(Math.random()*100)+1;
+
+// let randomNumber7 = Math.floor(Math.random()*100)+1;
+
+// let randomNumber8 = Math.floor(Math.random()*100)+1;
+
+// let randomNumber9 = Math.floor(Math.random()*100)+1;
+
+// let randomNumber10 = Math.floor(Math.random()*100)+1;
+
+// let array = [randomNumber1,randomNumber2,randomNumber3,randomNumber4,randomNumber5,randomNumber6,randomNumber7,randomNumber8,randomNumber9,randomNumber10];
+// console.log(array);
+// let maximum = Math.max(...array);
+// console.log(maximum);
+// let array2 = [randomNumber1,randomNumber2,randomNumber3,randomNumber4,randomNumber5,randomNumber6,randomNumber7,randomNumber8,randomNumber9,randomNumber10];
+// let minimum = Math.min(...array2);
+// console.log(minimum)
+// ____________________________________________________________________________
+// ques no 12 
+//  Multiplication Table with Nested Loops
+// Task:
+// Use nested for loops to print a multiplication table from 1 to 10.
+
+// Expected Output:
+// 1 x 1 = 1  
+// 1 x 2 = 2  
+// ...  
+// 10 x 10 = 100
+// ========== ans ==========
+
+for (let i = 1; i <= 10; i++) {
+    let rowOutput = "";
+
+    for (let j = 1; j <= 10; j++) {
+    
+        let product = i * j;
+        rowOutput += `${i} x ${j} = ${product}  `;
+    }
+
+    console.log(rowOutput);
+}
+// ____________________________________________________________________________________
+// ques no 12 
+// Task:
+// Create a string variable with some mixed-case letters (e.g., "JaVaScRiPt").
+// Use logic to convert each character to either uppercase or lowercase.
+// Expected Output:
+// Show the original string and the new string in lowercase and uppercase.
+// Original: JaVaScRiPt  
+// Lowercase: javascript  
+// Uppercase: JAVASCRIPT
+// // ===== ans ======== 
+// let string = "JaVaScRiPt";
+// console.log(string);
+//     string = string.toUpperCase();
+//     console.log(string);
+//     string = string.toLowerCase();
+//     console.log(string)
+// ______________________________________________________________________________________
+// ques no 13 
