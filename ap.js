@@ -85,3 +85,33 @@
 //     randomList = Math.floor(randomList);
 // console.log(days[randomList]);
    
+// _______________________________________________________________________________
+// ques no 9 
+// Pick a random color
+// Create an array of colors. Show a random one in the console.
+// ======= ans ============ 
+// let colors = ['red','green','blue','yellow','green'];
+// let choseColor = Math.random();
+//     choseColor = choseColor * colors.length;
+//     choseColor = Math.floor(choseColor);
+// console.log(choseColor);
+// let result = colors[choseColor];
+// console.log(result)
+// if(result === 'green'){console.log('cross road')}
+// else if(result === 'red'){console.log('stop')}
+// else if(result === 'yellow'){console.log('donot go but ready for moving')}
+// else{console.log('stop watch the traffic signal')}
+// ____________________________________________________________________________
+// ques no 10 
+// Color Changer (Random Background Color)
+// 💡 What it does:
+// When you open the page, the background color changes randomly.
+
+// //  let colors = ["red", "blue", "green", "purple", "orange", "pink", "yellow", "gray"];
+//     let randomIndex = Math.floor(Math.random() * colors.length);
+//     document.body.style.backgroundColor = colors[randomIndex];
+// let colors = ['red','blue','green','purple','orange','pink','yellow','gray'];
+// let changeColor = Math.random()* colors.length;
+//    changeColor = Math.floor(changeColor);
+//    console.log(changeColor);
+//    document.body.style.backgroundColor = colors[changeColor];
