@@ -195,3 +195,15 @@ for (let i = 1; i <= 10; i++) {
 //     console.log(string)
 // ______________________________________________________________________________________
 // ques no 13 
+// Ask the user for their name using prompt() and display it in uppercase using alert().
+// === ans ====
+// let enterName = prompt('enter your name');
+//     enterName = enterName.toUpperCase();
+//     console.log(enterName);
+// ______________________________________________________________________________________
+// ques no 14 
+// Ask the user to enter a sentence and show it fully in uppercase.
+// ------ ans --------
+// let enterSentence = prompt('ente a sentence');
+//     enterSentence = enterSentence.toUpperCase();
+//     console.log(enterSentence);
