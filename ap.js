@@ -79,11 +79,11 @@
 // Print random day from a list
 // 👉 Create an array with 7 days ("Monday", "Tuesday", ...). Show a random day.
 // ========= ans ========== 
-// let days = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
-// let randomList = Math.random();
-//     randomList = randomList * days.length;
-//     randomList = Math.floor(randomList);
-// console.log(days[randomList]);
+ let days = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+ let randomList = Math.random();
+     randomList = randomList * days.length;
+     randomList = Math.floor(randomList);
+ console.log(days[randomList]);
    
 // _______________________________________________________________________________
 // ques no 9 
@@ -165,17 +165,17 @@
 // 10 x 10 = 100
 // ========== ans ==========
 
-for (let i = 1; i <= 10; i++) {
-    let rowOutput = "";
+// for (let i = 1; i <= 10; i++) {
+//     let rowOutput = "";
 
-    for (let j = 1; j <= 10; j++) {
+//     for (let j = 1; j <= 10; j++) {
     
-        let product = i * j;
-        rowOutput += `${i} x ${j} = ${product}  `;
-    }
+//         let product = i * j;
+//         rowOutput += `${i} x ${j} = ${product}  `;
+//     }
 
-    console.log(rowOutput);
-}
+//     console.log(rowOutput);
+// }
 // ____________________________________________________________________________________
 // ques no 12 
 // Task:
@@ -302,3 +302,79 @@ for (let i = 1; i <= 10; i++) {
 // num = num + '';
 // console.log(num);
 // console.log(typeof num)
+// ________________________________________________________________________________
+// ques no 24 
+// toFixed( )
+// === ans === 
+//  let number = 32.6789;
+//  number = number.toFixed(1);
+//  console.log(number)
+// ______________________________________________________________________
+// ques no 25 
+// Create a variable pi with the value 3.14159265359.
+
+// Use .toFixed() to display:
+
+// Print the results using console.log().
+    
+//   ===== ans ===== 
+//  let pi = Math.PI;
+//  console.log(pi);
+//  pi = pi.toFixed(2);
+//  console.log(pi);
+// __________________________________________________________________________________
+// QUES NO 26 
+// Print numbers from 1 to 10.
+// Print even numbers from 2 to 20.
+// Print odd numbers from 1 to 19.
+// Print numbers from 10 to 1 in reverse.
+// ====== ans ====== 
+// for(var i = 1; i <= 10; i++){console.log(i)}
+//  even numbers
+// for(let i = 2; i <= 20; i++){if(i%2=== 0)
+// {console.log(i)}
+// }
+// --- odd number 
+// for(let i = 1; i <= 19; i++){if(i % 2 !== 0)
+// {console.log(i)}
+// }
+// reverse numbers
+// for(let i = 10; i > 0; i--){console.log(i)}
+// ___________________________________________________________________
+// ques no 27 
+// Print the table of 5 like this:
+// 5 x 1 = 5
+// 5 x 2 = 10
+// 5 x 10 = 50
+// ------- ans ------
+// table of 5
+// for(let i = 1; i <= 10; i++){console.log('5' + '*' + i + ' = ' + 5*i)}
+// __________________________________________________________________________
+// ques no 28 
+//  Print a square of stars (5x5)
+// *****
+// *****
+// *****
+// *****
+// *****
+// ====== ans ======== 
+//   for(let i = 1 ; i <= 5; i++){let row = '';
+//  for(let j = 1; j <= 5; j++)
+//   { row = row + '*';}
+// console.log(row)
+//  }
+// ___________________________________________________________________________
+// ques no 29 
+// Print a right-angled triangle of stars
+// *
+// **
+// ***
+// ****
+// *****
+// ===== ans ====== 
+// for(let i = 1; i <= 5; i++){let row = '';
+//     for(let j = 1; j <=i; j++)
+//     {row = row + '*'}
+//     console.log(row)
+
+// }
