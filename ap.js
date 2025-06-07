@@ -252,7 +252,53 @@ for (let i = 1; i <= 10; i++) {
 //         enter2Number = Number(enter2Number);
 //     let addition = enter1Number + enter2Number;
 //     console.log(addition);
-let number = '34';
-console.log(typeof number);
- number = +number;
- console.log(typeof number);
+// _______________________________________________________________________
+// ques no 19 
+// parseInt()
+// ===== ans ========= 
+// let str = '98.8';
+// console.log(str);
+// console.log(typeof str);
+//   str = parseInt(str);
+//   console.log(str);
+//   console.log(typeof str);
+// ____________________________________________________________________________
+// ques no 20 
+// parseFloat( )
+// ======= ans ============ 
+// let num = '78.8';
+// console.log(num);
+// console.log(typeof num);
+//  num = parseFloat(num);
+//  console.log(num);
+//  console.log(typeof num);
+// ____________________________________________________________________________________
+// ques no 21 
+// Number() method 
+//  ====== ans ==== 
+// let str = '789.323';
+// console.log(str);
+// console.log(typeof str);
+
+//    str = Number(str);
+//    console.log(str);
+//    console.log(typeof str);
+// ___________________________________________________________________________________
+// ques no 22 
+// converting number to string values first method .toString( )
+//  ans 
+// let num = 324;
+// console.log(num);
+// console.log(typeof num);
+//  num = num.toString()
+//  console.log(num);
+//  console.log(typeof num)
+// ______________________________________________________________________________
+// ques no 23 
+// convert number to string by + '';
+//  ====== ans ======== 
+// let num = 32;
+// console.log(typeof num);
+// num = num + '';
+// console.log(num);
+// console.log(typeof num)
