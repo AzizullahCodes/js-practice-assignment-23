@@ -207,3 +207,52 @@ for (let i = 1; i <= 10; i++) {
 // let enterSentence = prompt('ente a sentence');
 //     enterSentence = enterSentence.toUpperCase();
 //     console.log(enterSentence);
+// __________________________________________________________________________________
+// ques no 15 
+// Create a variable called word and assign it the value "JavaScript".
+// Print the first, fifth, and last characters using charAt().
+// ====== ans ========= 
+// let variab = 'JavaScript';
+// let firstCharacter = variab.charAt();
+// console.log(firstCharacter);
+// let fifthCharacter = variab.charAt(4);
+// console.log(fifthCharacter);
+// let lastCharacter = variab.charAt(variab.length-1);
+// console.log(lastCharacter)
+// ____________________________________________________________________________
+// ques no 16 
+// extract last character of string 
+// ====== ans ========= 
+// let word = 'lovelydog';
+//         let lastCharacter = word.charAt(word.length-1);
+//         console.log(lastCharacter);
+// ______________________________________________________________________
+// ques no 17 
+// Make a new string with your own name.
+// Print:
+// The second letter
+// The fourth letter
+// The last letter
+// ======= ans ======== 
+// let str = 'Azizullah';
+// let secodLetter = str[1];
+// console.log(secodLetter);
+// let fourthLetter = str[3];
+// console.log(fourthLetter);
+// let lastLetter = str[str.length - 1];
+// console.log(lastLetter);
+// ________________________________________________________________
+// ques no 18
+// Ask the user to enter two numbers.
+// Add them and show the result.
+//  ====== ans ======= 
+// let enter1Number = prompt('enter first number');  
+//     enter1Number = Number(enter1Number)
+//     let enter2Number = prompt('enter second number');
+//         enter2Number = Number(enter2Number);
+//     let addition = enter1Number + enter2Number;
+//     console.log(addition);
+let number = '34';
+console.log(typeof number);
+ number = +number;
+ console.log(typeof number);
