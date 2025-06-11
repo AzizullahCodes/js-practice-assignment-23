@@ -90,12 +90,12 @@
 // Pick a random color
 // Create an array of colors. Show a random one in the console.
 // ======= ans ============ 
-// let colors = ['red','green','blue','yellow','green'];
-// let choseColor = Math.random();
-//     choseColor = choseColor * colors.length;
-//     choseColor = Math.floor(choseColor);
-// console.log(choseColor);
-// let result = colors[choseColor];
+ let colors = ['red','green','blue','yellow','green'];
+ let choseColor = Math.random();
+     choseColor = choseColor * colors.length;
+     choseColor = Math.floor(choseColor);
+console.log(choseColor);
+ let result = colors[choseColor];
 // console.log(result)
 // if(result === 'green'){console.log('cross road')}
 // else if(result === 'red'){console.log('stop')}
